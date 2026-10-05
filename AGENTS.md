@@ -8,6 +8,60 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:nextjs-agent-rules -->
 
+# About this project
+
+This site is the home screen for Vera. It is a static page of large app icons. Each icon links to a separate app that is built for her. The apps are on other `workers.dev` addresses.
+
+## Who Vera is
+
+Vera is a stroke survivor. She was born in the 1960s. She did not grow up with technology, so her knowledge of it is limited. She is the main user of every system in this project.
+
+Vera has these limits:
+
+- She cannot use her right hand. She uses one hand only.
+- She cannot read written text, except simple single words. She can connect one word to one object or one action.
+- She cannot understand a sentence.
+- She cannot speak, except a few simple, practiced words and sounds.
+- She cannot say some letters of the alphabet. She can say most of them.
+
+Vera depends on visual cues. She uses them to remember a flow in a user interface. She also uses them to understand a situation and to connect a word to an object or action.
+
+Vera can do these things:
+
+- She can copy text with the QWERTY keyboard on her phone, if the text is on the screen. If the screen shows "Banana", she can type "Banana".
+- She can follow a complex flow after someone teaches her. For example, she learned to touch and hold text to start text-to-speech on her Apple phone.
+- She knows some apps after instruction: messages, phone, contacts, Facebook, and WhatsApp.
+
+## Rules for every change
+
+Vera cannot understand text. Therefore, think about her limits before you add or change any feature. For example, do not add an alert pop-up, because she cannot read it. Use buttons with images or emojis that show the action.
+
+You must obey these rules:
+
+- Do not add sentences, instructions, labels, or error messages to the UI.
+- Do not use `alert`, `confirm`, `prompt`, or a text dialog.
+- Show each action with an emoji, an icon, a picture, or a color.
+- Keep each flow short, and keep it the same every time. Vera learns a flow by memory.
+- Make each touch target large.
+- Make sure that one hand can reach every control on a phone.
+- Do not require speech, and do not require a gesture that needs two hands.
+- Do not require a complex gesture, such as a pinch or a drag, unless Vera can learn it.
+- If a word appears, it must be a single simple word that has a picture next to it.
+- Show what happened with a clear visual result, for example a trophy or a sad face.
+- Do not remove or rename a control that Vera already knows, unless there is a strong reason.
+- Do not assume that Vera knows a common web pattern. Menus, swipes, and hidden controls can confuse her.
+- If a new feature needs text to work, change the design. Do not add the text.
+
+Before you finish, ask this question: "Can Vera use this feature with one hand, without reading?" If the answer is no, change the feature.
+
+## How this site works
+
+- The list of apps is in `app/apps.ts`. It is a list of screens. Each screen is a list of apps.
+- To add an app, add one entry (`name`, `emoji`, `url`, and optionally `color`) to the screen that you want. To make a new screen, add a new list.
+- Keep `name` to one simple word.
+- The user can move between screens with the arrow buttons or by swiping. Both must keep working.
+- An app opens in the same tab. The browser back button returns to this site.
+
 # Agent guide for this template
 
 This file is written in Simplified Technical English. Each sentence has one meaning. Read all of it before you change any file.

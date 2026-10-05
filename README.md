@@ -2,6 +2,10 @@
 
 A static Next.js site (App Router, `output: "export"`) served by a Cloudflare Worker.
 
+A home screen for Vera, in the style of an iPad home screen. Each app is a large emoji icon with one word under it, and it links to a separate app. Screens change with the arrow buttons or by swiping.
+
+To add an app, edit `app/apps.ts`. Each inner list is one screen.
+
 ## Commands
 
 | Command | Result |
