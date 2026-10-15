@@ -23,6 +23,12 @@ export const screens: VeraApp[][] = [
       color: "#3f9bf0",
     },
     {
+      name: "Money",
+      emoji: "💰",
+      url: "https://veras-money-game.deltadelta.workers.dev/",
+      color: "#2fa86b",
+    },
+    {
       name: "Time",
       emoji: "🕰️",
       url: "https://veras-clock-and-calendar-app.deltadelta.workers.dev/",
