@@ -22,5 +22,11 @@ export const screens: VeraApp[][] = [
       url: "https://veras-counting-challenge.deltadelta.workers.dev/",
       color: "#3f9bf0",
     },
+    {
+      name: "Time",
+      emoji: "🕰️",
+      url: "https://veras-clock-and-calendar-app.deltadelta.workers.dev/",
+      color: "#e8875f",
+    },
   ],
 ];
