@@ -22,5 +22,11 @@ export const screens: VeraApp[][] = [
       url: "https://veras-counting-challenge.deltadelta.workers.dev/",
       color: "#3f9bf0",
     },
+    {
+      name: "Money",
+      emoji: "💰",
+      url: "https://veras-money-game.deltadelta.workers.dev/",
+      color: "#2fa86b",
+    },
   ],
 ];
