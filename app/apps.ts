@@ -35,4 +35,18 @@ export const screens: VeraApp[][] = [
       color: "#e8875f",
     },
   ],
+  [
+    {
+      name: "LLB",
+      emoji: "🛍️",
+      url: "https://www.llbean.ca/",
+      color: "#2f6b4f",
+    },
+    {
+      name: "Q",
+      emoji: "🛍️",
+      url: "https://www.quince.com/",
+      color: "#c0568a",
+    },
+  ],
 ];
