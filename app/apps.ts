@@ -34,6 +34,12 @@ export const screens: VeraApp[][] = [
       url: "https://veras-clock-and-calendar-app.deltadelta.workers.dev/",
       color: "#e8875f",
     },
+    {
+      name: "Earth",
+      emoji: "🌍",
+      url: "https://veras-google-earth-tours.deltadelta.workers.dev/",
+      color: "#14a3a8",
+    },
   ],
   [
     {
